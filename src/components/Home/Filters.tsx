@@ -119,7 +119,7 @@ export const Filters = () => {
             .map((marketItem, index) => (
               <Link
                 href={marketItem.id}
-                className='min-w-[12.5rem] flex flex-col items-center'
+                className='min-w-[12.5rem] flex flex-col items-center rounded-xl bg-zinc-800'
                 key={index}
               >
                 <div className='w-full relative aspect-square'>
@@ -128,7 +128,7 @@ export const Filters = () => {
                       "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png?20170328184010"
                     }
                     fill
-                    className='object-cover'
+                    className='object-cover rounded-t-xl'
                     alt='photo'
                   />
                 </div>

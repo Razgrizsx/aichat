@@ -1,4 +1,3 @@
-import CardSection from "@/components/Home/CardSection";
 import { Filters } from "@/components/Home/Filters";
 
 export default function Home() {
